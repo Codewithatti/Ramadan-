@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color:rgb(81, 81, 148);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font  */
+    text-decoration: none;
+    transition: 0.4s;
+    background: rgb(255, 255, 255);
+
+}
+
+.container {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.container nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+color: var(--color);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Passion One", serif;
+
+}
+
+nav .links a {
+color: var(--color);
+    background-color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 18px;
+    font-family: "Raleway", serif;
+    border-radius: 10px;
+}
+
+nav .links a:hover,
+nav .links a.active {
+    background-color: rgb(72, 130, 237);
+    color: white;
+}
+
+.container .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .main .text {
+    width: 50%;
+
+}
+
+.main .text h1 {
+    color: rgb(81, 81, 148);
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.main .text p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 60px;
+    line-height: 1.6;
+
+
+
+}
+
+.main .text .button {
+    padding: 15px 25px;
+    background-color: rgb(72, 130, 237);
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(72, 130, 237);
+    border-radius: 10px;
+}
+
+.main .text .button:hover {
+    color: rgb(72, 130, 237);
+    background-color: transparent;
+}
+
+
+.image img {
+    width: 500px;
+}
+/* source code in  the discription  */
